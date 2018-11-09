@@ -8,8 +8,8 @@ public class JokeServiceImpl implements JokeService {
 
     private ChuckNorrisQuotes cnq;
 
-    public JokeServiceImpl() {
-        cnq = new ChuckNorrisQuotes();
+    public JokeServiceImpl(ChuckNorrisQuotes cnq) {
+        this.cnq = new ChuckNorrisQuotes();
     }
 
     @Override
